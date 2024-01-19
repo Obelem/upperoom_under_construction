@@ -19,6 +19,7 @@ body {
 }
 
 .main {
+    margin-top: 2rem;
     display: grid;
     place-items: center;
     place-content: center;
@@ -39,10 +40,8 @@ body {
 }
 
 .banner-img {
-    width: min(45rem, 80vw);
+    width: min(45rem, 95vw);
 
-    outline: 2px solid salmon;
-    height: 30rem;
 }
 
 
