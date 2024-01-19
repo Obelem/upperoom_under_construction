@@ -4,8 +4,12 @@ body {
 
     font-family: 'Roboto', sans-serif;
 
-    height: 100vh;
+    /* height: 100vh; */
     color: slategrey;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 .nav {
@@ -25,14 +29,14 @@ body {
     place-content: center;
     row-gap: 2rem;
 
-    min-height: 30rem;
+    /* min-height: 20rem; */
 }
 
 .headings-container {
     text-align: center;
     display: grid;
-    row-gap: 3rem;
-
+    row-gap: 2.5rem;
+    padding: 1rem;
 }
 
 .headings-container > * {
