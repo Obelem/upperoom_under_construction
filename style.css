@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.root-container {
+    display: grid;
+    place-items: center;
+    place-content: center;
+    row-gap: 2rem;
+
+    height: 100vh;
+    min-height: 30rem;
+}
+
+h1 {
+    color: white;
+    text-shadow: 5px 4px 11px #68bb59, 0 2px 5px #68bb59;
+  text-align: center;
+
+  text-shadow: -1px 1px 0 #68bb59,
+	1px 1px 0 crimson,
+	1px -1px 0 #356687,
+	-1px -1px 0 #c6c23f;
+}
+
+h2 {
+    color: #68bb59;
+}
+
+.banner-img {
+    width: 45rem;
+    width: min(45rem, 80vw);
+}
