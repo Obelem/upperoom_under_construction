@@ -16,15 +16,12 @@ body {
     min-height: 30rem;
 }
 
-h1 {
-    color: white;
-    text-shadow: 5px 4px 11px #68bb59, 0 2px 5px #68bb59;
-  text-align: center;
+.headings-container {
+    text-align: center;
+}
 
-  text-shadow: -1px 1px 0 #68bb59,
-	1px 1px 0 crimson,
-	1px -1px 0 #356687,
-	-1px -1px 0 #c6c23f;
+h1 {
+    color: #68bb59;
 }
 
 h2 {
@@ -34,4 +31,5 @@ h2 {
 .banner-img {
     width: 45rem;
     width: min(45rem, 80vw);
+    height: 30rem;
 }
