@@ -29,6 +29,13 @@ body {
 
 .headings-container {
     text-align: center;
+    display: grid;
+    row-gap: 2rem;
+
+}
+
+.headings-container > * {
+    margin: 0;
 }
 
 .banner-img {
@@ -37,10 +44,11 @@ body {
 }
 
 
-
 .underlined {
     /*   background: red; */
       position: relative;
+
+      color: hsl(130 80% 50%);
     }
 
     .underline-mask:after {
